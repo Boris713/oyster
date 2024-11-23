@@ -4,6 +4,7 @@ import { BooleanInput, Entity } from '@oyster/types';
 
 export type FeatureFlagName =
   | 'chatbot'
+  | 'compensation'
   | 'family_application'
   | 'send_slack_messages';
 
